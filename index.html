@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/eaa7a334e7.js" crossorigin="anonymous"></script>
+    <style>
+      .playing{
+        background-image: url("playing.gif");
+        height: 10px;
+        width: 10px;
+      }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="logo.png" alt="">
+            <h1 class="nav">Spotify</h1>
+            <h3 id="home" class="nav">PlayList
+                <div id="playlist">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p>Songs Name</p>
+                        <i id="cross" class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div id="border"></div>
+                  
+                    <div id="song-box">
+                        <div value="1" class="songs">
+                         <img src="./covers/1.jpeg" alt="">
+                         <p id="1">295 Sidhu Moosewala</p>
+                         <span >05:30</span>
+                        </div>
+                        <div value="2" class="songs">
+                         <img src="./covers/2.jpeg" alt="">
+                         <p id="2">Barsat ke Mausam mai</p>
+                         <span >05:30</span>
+                        </div>
+                        <div value="3" class="songs">
+                         <img src="./covers/3.jpeg" alt="">
+                         <p  id="3">Check Kar</p>
+                         <span >05:30</span>
+                        </div>
+                        <div value="4" class="songs">
+                         <img src="./covers/4.jpeg" alt="">
+                         <p  id="4">Cheques</p>
+                         <span >05:30</span>
+                        </div>
+                        <div  value="5" class="songs">
+                         <img src="./covers/5.jpeg" alt="">
+                         <p  id="5">Hari Hari Odhani</p>
+                         <span >05:30</span>
+                        </div>
+                        <div value="6" class="songs">
+                         <img src="./covers/6.jpeg" alt="">
+                         <p  id="6">Heeriye</p>
+                         <p>05:34 <i  class="fa-solid fa-play"></i></p>
+                        </div>
+                        <div value="7" class="songs">
+                         <img src="./covers/7.jpeg" alt="">
+                         <p  id="7">Kahani suno 2.O</p>
+                         <p>05:34 <i  class="fa-solid fa-play"></i></p>
+                        </div>
+                        <div value="8" class="songs">
+                         <img src="./covers/8.jpeg" alt="">
+                         <p  id="8">Mujhko yaad sataye teri</p>
+                         <p>05:34 <i  class="fa-solid fa-play"></i></p>
+                        </div>
+         
+                     </div>
+                
+                </div>
+            </h3>
+            <h3 class="nav">About</h3>
+        </header>
+        <div id="main">
+            <!-- <h2>Best of NCS- No Copyright Sounds</h2>
+            <div id="song-box">
+               <div class="songs">
+                <img src="./covers/1.jpg" alt="">
+                <p>Warriyo-Mortals(NCS Release)</p>
+                <p>05:34 <i value="1" class="fa-solid fa-play "></i></p>
+               </div>
+               <div class="songs">
+                <img src="./covers/2.jpg" alt="">
+                <p>Warriyo-Mortals(NCS Release)</p>
+                <p>05:34 <i value="2" class="fa-solid fa-play"></i></p>
+               </div>
+               <div class="songs">
+                <img src="./covers/3.jpg" alt="">
+                <p>Warriyo-Mortals(NCS Release)</p>
+                <p>05:34 <i value="3" class="fa-solid fa-play"></i></p>
+               </div>
+               <div class="songs">
+                <img src="./covers/4.jpg" alt="">
+                <p>Warriyo-Mortals(NCS Release)</p>
+                <p>05:34 <i value="4" class="fa-solid fa-play"></i></p>
+               </div>
+               <div class="songs">
+                <img src="./covers/5.jpg" alt="">
+                <p>Warriyo-Mortals(NCS Release)</p>
+                <p>05:34 <i value="5" class="fa-solid fa-play"></i></p>
+               </div><div class="songs">
+                <img src="./covers/6.jpg" alt="">
+                <p>Warriyo-Mortals(NCS Release)</p>
+                <p>05:34 <i value="6" class="fa-solid fa-play"></i></p>
+               </div>
+               <div class="songs">
+                <img src="./covers/7.jpg" alt="">
+                <p>Warriyo-Mortals(NCS Release)</p>
+                <p>05:34 <i value="7" class="fa-solid fa-play"></i></p>
+               </div>
+               <div class="songs">
+                <img src="./covers/8.jpg" alt="">
+                <p>Warriyo-Mortals(NCS Release)</p>
+                <p>05:34 <i value="8" class="fa-solid fa-play"></i></p>
+               </div>
+
+            </div> -->
+        </div>
+        <div id="name">Hello</div>
+        <div id="heading"></div>
+        <div id="audio">
+            <audio  controls src="./songs/1.mp3"></audio>
+            <div id="for-back">
+                <i id="back" class="fa-solid fa-backward-step"></i>
+                <i id="btn" class="fa-solid fa-play"></i>
+                <i id="forward" class="fa-solid fa-forward-step"></i>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; MAHENDRA PRATAP VERMA</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

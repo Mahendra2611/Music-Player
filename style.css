@@ -1,0 +1,155 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+header{
+    background-color: black;
+   display: flex;
+   width: 100%;
+   align-items: center;
+   gap: 15px;
+   margin-bottom: 10px;
+   cursor: pointer;
+   
+}
+#border{
+    width: 100%;
+    background-color: black;
+    height:2px;
+}
+#playlist{
+    display: none;
+    padding: 0px 10px;
+    top: 70px;
+    left: 10px;
+    max-width: 350px;
+    max-height: 600px;
+    overflow-y: scroll;
+    background-color: #10b981;
+    position: absolute;
+    z-index: 100;
+   
+
+}
+#home{
+    text-decoration: underline;
+    text-decoration-color:green ;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+.songs p{
+    color: black;
+    font-size: 12px;
+}
+img{
+    height: 40px;
+}
+.nav{
+    color: white;
+   font-size: 22px;
+}
+#main{
+    height: 400px;
+    max-width: 800px;
+    margin: auto;
+    background-image: url(./covers/1.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    padding: 10px;
+}
+audio{
+    color: white;
+}
+.songs img{
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    
+}
+#song-box{
+    padding: 10px;
+    height: 75%;
+
+    /* border: 2px solid red; */
+   
+}
+#name{
+    font-size: 35px;
+    font-weight: 700;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.songs{
+    padding: 0px 10px;
+    display: flex;
+    /* background-color: white; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    gap: 7px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin:0px 0px 10px 0px;
+}
+.songs span{
+    color: black;
+    font-size: 16px;
+}
+.fa-solid{
+    cursor: pointer;
+}
+#audio{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+audio{
+    color: black;
+   
+    width: 800px;
+    /* border: 2px solid green; */
+}
+#for-back{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 30px;
+}
+footer p{
+    font-size: 23px;
+    font-weight: 700;
+    color: #10b981;
+    text-align: center;
+}
+@media screen and (max-width:773px){
+    audio{
+        width: 100%;
+        margin: 0px;
+        
+    }
+    #name{
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+        /* border: 2px solid red; */
+        text-align: center;
+    }
+    #main{
+        height: 400px;
+        width: 100%;
+        background-image: url(./covers/1.jpeg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        
+    }
+}
